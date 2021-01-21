@@ -15,25 +15,25 @@ class CreateClientsTable extends Migration
 
             $table->string('phone',25)->nullable();
 
-            $table->string('email',30)->nullable();
+            $table->string('email',40)->nullable();
 
             $table->string('matricula',25)->nullable();
 
-            $table->string('gender',25)->nullable();
+            $table->string('gender',20)->nullable();
 
-            $table->string('edad',25)->nullable();
+            $table->string('edad',10)->nullable();
 
-            $table->string('sala',25)->nullable();
+            $table->string('sala',10)->nullable();
 
             $table->string('religion',25)->nullable();
 
-            $table->string('ocupacion',25)->nullable();
+            $table->string('ocupacion',40)->nullable();
 
             $table->string('estadocivil',25)->nullable();
 
-            $table->string('medicotratante',25)->nullable();
+            $table->string('medicotratante',40)->nullable();
 
-            $table->string('originariode',25)->nullable();
+            $table->string('originariode',40)->nullable();
 
             $table->string('radicaen',25)->nullable();
 
@@ -41,207 +41,207 @@ class CreateClientsTable extends Migration
 
             $table->string('municipales',25)->nullable();
 
-            $table->string('habitacion',25)->nullable();
+            $table->string('habitacion',10)->nullable();
 
-            $table->string('tabaquismo',25)->nullable();
+            $table->string('tabaquismo',15)->nullable();
 
-            $table->string('etilismo',25)->nullable();
+            $table->string('etilismo',15)->nullable();
 
-            $table->string('higiene',25)->nullable();
+            $table->string('higiene',15)->nullable();
 
             $table->string('alimentacion',25)->nullable();
 
             $table->string('dominio',25)->nullable();
 
-            $table->string('hijos',25)->nullable();
+            $table->string('hijos',10)->nullable();
 
             $table->string('pasatiempo',25)->nullable();
 
-            $table->string('otros',50)->nullable();
+            $table->text('otros')->nullable();
 
             $table->string('diabetes',25)->nullable();
 
-            $table->string('hta',50)->nullable();
+            $table->text('hta')->nullable();
 
-            $table->string('cancer',50)->nullable();
+            $table->text('cancer')->nullable();
 
-            $table->string('enfreumat',50)->nullable();
+            $table->text('enfreumat')->nullable();
 
-            $table->string('cardiopatias',50)->nullable();
+            $table->text('cardiopatias')->nullable();
 
-            $table->string('cirugias',50)->nullable();
+            $table->text('cirugias')->nullable();
 
-            $table->string('alergias',50)->nullable();
+            $table->text('alergias')->nullable();
 
-            $table->string('transfusiones',50)->nullable();
+            $table->text('transfusiones')->nullable();
 
-            $table->string('accidentes',50)->nullable();
+            $table->text('accidentes')->nullable();
 
-            $table->string('encames',50)->nullable();
+            $table->text('encames')->nullable();
 
-            $table->string('fracturas',50)->nullable();
+            $table->text('fracturas')->nullable();
 
-            $table->string('ta',50)->nullable();
+            $table->text('ta')->nullable();
 
-            $table->string('temp',50)->nullable();
+            $table->text('temp')->nullable();
 
-            $table->string('fc',50)->nullable();
+            $table->text('fc')->nullable();
 
-            $table->string('fr',50)->nullable();
+            $table->text('fr')->nullable();
 
-            $table->string('reflejos',50)->nullable();
+            $table->text('reflejos')->nullable();
 
-            $table->string('sensibilidad',50)->nullable();
+            $table->text('sensibilidad')->nullable();
 
-            $table->string('lenguaje',50)->nullable();
+            $table->text('lenguaje')->nullable();
 
-            $table->string('otrose',50)->nullable();
+            $table->text('otrose')->nullable();
 
-            $table->string('sitioe',50)->nullable();
+            $table->text('sitioe')->nullable();
 
-            $table->string('sitioc',50)->nullable();
+            $table->text('sitioc')->nullable();
 
-            $table->string('queloide',50)->nullable();
+            $table->text('queloide')->nullable();
 
-            $table->string('retractil',50)->nullable();
+            $table->text('retractil')->nullable();
 
-            $table->string('abierta',50)->nullable();
+            $table->text('abierta')->nullable();
 
-            $table->string('adherencias',50)->nullable();
+            $table->text('adherencias')->nullable();
 
-            $table->string('hipertrofica',50)->nullable();
+            $table->text('hipertrofica')->nullable();
 
-            $table->string('libre',50)->nullable();
+            $table->text('libre')->nullable();
 
-            $table->string('claudicante',50)->nullable();
+            $table->text('claudicante')->nullable();
 
-            $table->string('ayudas',50)->nullable();
+            $table->text('ayudas')->nullable();
 
-            $table->string('espastica',50)->nullable();
+            $table->text('espastica')->nullable();
 
-            $table->string('ataxica',50)->nullable();
+            $table->text('ataxica')->nullable();
 
-            $table->string('otras',50)->nullable();
+            $table->text('otras')->nullable();
 
-            $table->string('valinicial',50)->nullable();
+            $table->text('valinicial')->nullable();
 
-            $table->string('independiente1',50)->nullable();
+            $table->text('independiente1')->nullable();
 
-            $table->string('ruedas1',50)->nullable();
+            $table->text('ruedas1')->nullable();
 
-            $table->string('ayudas1',50)->nullable();
+            $table->text('ayudas1')->nullable();
 
-            $table->string('camilla1',50)->nullable();
+            $table->text('camilla1')->nullable();
 
-            $table->string('valfinal',50)->nullable();
+            $table->text('valfinal')->nullable();
 
-            $table->string('independiente2',50)->nullable();
+            $table->text('independiente2')->nullable();
 
-            $table->string('ruedas2',50)->nullable();
+            $table->text('ruedas2')->nullable();
 
-            $table->string('ayudas2',50)->nullable();
+            $table->text('ayudas2')->nullable();
 
-            $table->string('camilla2',50)->nullable();
+            $table->text('camilla2')->nullable();
 
-            $table->string('dolor',50)->nullable();
+            $table->text('dolor')->nullable();
 
-            $table->string('dolorinicial',50)->nullable();
+            $table->text('dolorinicial')->nullable();
 
-            $table->string('dolorfinal',50)->nullable();
+            $table->text('dolorfinal')->nullable();
 
-            $table->string('em1msupizq',50)->nullable();
+            $table->text('em1msupizq')->nullable();
 
-            $table->string('em1msupder',50)->nullable();
+            $table->text('em1msupder')->nullable();
 
-            $table->string('em1minfizq',50)->nullable();
+            $table->text('em1minfizq')->nullable();
 
-            $table->string('em1minfder',50)->nullable();
+            $table->text('em1minfder')->nullable();
 
-            $table->string('em1troncoizq',50)->nullable();
+            $table->text('em1troncoizq')->nullable();
 
-            $table->string('em1troncoder',50)->nullable();
+            $table->text('em1troncoder')->nullable();
 
-            $table->string('em1cuelloizq',50)->nullable();
+            $table->text('em1cuelloizq')->nullable();
 
-            $table->string('em1cuelloder',50)->nullable();
+            $table->text('em1cuelloder')->nullable();
 
-            $table->string('em2msupizq',50)->nullable();
+            $table->text('em2msupizq')->nullable();
 
-            $table->string('em2msupder',50)->nullable();
+            $table->text('em2msupder')->nullable();
 
-            $table->string('em2minfizq',50)->nullable();
+            $table->text('em2minfizq')->nullable();
 
-            $table->string('em2minfder',50)->nullable();
+            $table->text('em2minfder')->nullable();
 
-            $table->string('em2troncoizq',50)->nullable();
+            $table->text('em2troncoizq')->nullable();
 
-            $table->string('em2troncoder',50)->nullable();
+            $table->text('em2troncoder')->nullable();
 
-            $table->string('em2cuelloizq',50)->nullable();
+            $table->text('em2cuelloizq')->nullable();
 
-            $table->string('em2cuelloder',50)->nullable();
+            $table->text('em2cuelloder')->nullable();
 
-            $table->string('eg1msupizq',50)->nullable();
+            $table->text('eg1msupizq')->nullable();
 
-            $table->string('eg1msupder',50)->nullable();
+            $table->text('eg1msupder')->nullable();
 
-            $table->string('eg1minfizq',50)->nullable();
+            $table->text('eg1minfizq')->nullable();
 
-            $table->string('eg1minfder',50)->nullable();
+            $table->text('eg1minfder')->nullable();
 
-            $table->string('eg1troncoizq',50)->nullable();
+            $table->text('eg1troncoizq')->nullable();
 
-            $table->string('eg1troncoder',50)->nullable();
+            $table->text('eg1troncoder')->nullable();
 
-            $table->string('eg1cuelloizq',50)->nullable();
+            $table->text('eg1cuelloizq')->nullable();
 
-            $table->string('eg1cuelloder',50)->nullable();
+            $table->text('eg1cuelloder')->nullable();
 
-            $table->string('eg2msupizq',50)->nullable();
+            $table->text('eg2msupizq')->nullable();
 
-            $table->string('eg2msupder',50)->nullable();
+            $table->text('eg2msupder')->nullable();
 
-            $table->string('eg2minfizq',50)->nullable();
+            $table->text('eg2minfizq')->nullable();
 
-            $table->string('eg2minfder',50)->nullable();
+            $table->text('eg2minfder')->nullable();
 
-            $table->string('eg2troncoizq',50)->nullable();
+            $table->text('eg2troncoizq')->nullable();
 
-            $table->string('eg2troncoder',50)->nullable();
+            $table->text('eg2troncoder')->nullable();
 
-            $table->string('eg2cuelloizq',50)->nullable();
+            $table->text('eg2cuelloizq')->nullable();
 
-            $table->string('eg2cuelloder',50)->nullable();
+            $table->text('eg2cuelloder')->nullable();
 
-            $table->string('dxmedico',50)->nullable();
+            $table->string('dxmedico',30)->nullable();
 
-            $table->string('cie10',50)->nullable();
+            $table->string('cie10',30)->nullable();
 
-            $table->string('objetivos')->nullable();
+            $table->text('objetivos')->nullable();
 
-            $table->string('hipotesis')->nullable();
+            $table->text('hipotesis')->nullable();
 
-            $table->string('ecorporal')->nullable();
+            $table->text('ecorporal')->nullable();
 
-            $table->string('fcorporal')->nullable();
+            $table->text('fcorporal')->nullable();
 
-            $table->string('actividad')->nullable();
+            $table->text('actividad')->nullable();
 
-            $table->string('participacion')->nullable();
+            $table->text('participacion')->nullable();
 
-            $table->string('pronostico')->nullable();
+            $table->text('pronostico')->nullable();
 
-            $table->string('plan')->nullable();
+            $table->text('plan')->nullable();
 
             $table->string('dxfisio',50)->nullable();
 
             $table->string('codigocif',50)->nullable();
 
-            $table->string('proximacita',50)->nullable();
+            $table->string('proximacita',25)->nullable();
 
             $table->string('hora',25)->nullable();
 
-            $table->string('elaboro',50)->nullable();
+            $table->string('elaboro',25)->nullable();
 
 
 
